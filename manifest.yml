@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: personality insights testmax
+  host: personality-insights-testmax
+  disk_quota: 1024M
+  services:
+  - personality insights testmax-personality_insights
